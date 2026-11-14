@@ -6,6 +6,20 @@ __pycache__/
 # C extensions
 *.so
 
+# Dataset mentah (tidak diupload ke GitHub)
+data/
+data_uts_ml/
+*.csv.gz
+*.zip
+
+# Cache & environment Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
 # Distribution / packaging
 .Python
 build/
